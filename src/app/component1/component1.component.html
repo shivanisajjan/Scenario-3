@@ -1,0 +1,6 @@
+<h1 style="text-align: center;">Scenario-3</h1>
+<p>Enter your message(to child):
+<input #box (keyup.enter)="onEnter(box.value)"></p>
+<app-component2 [parentdata]="value">
+</app-component2>
+<p>Press Enter after typing your message.</p>
